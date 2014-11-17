@@ -4,7 +4,7 @@ from setuptools import setup, find_packages
 
 install_requires = [
     'setproctitle==1.1.6',
-    'statsd==1.0.0',
+    'statsd>=1.0.0',
 ]
 
 setup(
